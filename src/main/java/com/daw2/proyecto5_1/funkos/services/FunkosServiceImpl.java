@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class FunkosServiceImpl implements FunkosService {
 
     private static final Logger log = LoggerFactory.getLogger(FunkosServiceImpl.class);
-
+ 
     private final FunkosRepository repositorio;
     private final CategoriasRepository categoriasRepository;
     private final FunkoMapper mapper;
